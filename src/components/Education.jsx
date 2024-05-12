@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Edu_prop from "./Edu_prop";
 import {
-  uh,
+  uh, pvpsit
 } from "../constants/Constant";
 
 const Education = () => {
@@ -17,7 +17,7 @@ const Education = () => {
     <>
       <section
         id="education"
-        className="EXPERIENCE p-5 mx-20 mb-10 min-h-screen font-['Poppins']  max-sm:p-2 max-sm:mx-5"
+        className="EXPERIENCE p-5 mx-20  font-['Poppins']  max-sm:p-2 max-sm:mx-5"
       >
         <div className="WRAPPER mt-10">
           <h1 className="text-[#00040f] dark:text-slate-300 text-center font-extrabold text-5xl mb-5 max-sm:text-4xl   ">
@@ -38,7 +38,7 @@ const Education = () => {
             </Edu_prop>
 
             <Edu_prop
-              image={uh}
+              image={pvpsit}
               title="PVP Siddhartha Institute of Technology"
               degree="Bachelors"
               period="June 2017 - April 2021"

@@ -8,6 +8,7 @@ import Javascript from "../assets/Javascript.png";
 import Git from "../assets/Git.png";
 import react from "../assets/React.png";
 import uh from "../assets/UH.png";
+import pvpsit from "../assets/PVPSIT.png";
 import tcs from "../assets/TCS.png";
 import TailwindCSS from "../assets/TailwindCSS.png";
 import Vite from "../assets/Vite.png";
@@ -23,6 +24,7 @@ export {
   Python,
   Javascript,
   uh,
+  pvpsit,
   tcs,
   TailwindCSS,
   Vite

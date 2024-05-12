@@ -73,13 +73,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="IMG p-0 max-sm:grid max-sm:place-content-center">
-            <img
-              src={uh}
-              alt="Sanjana Movva"
-              className="h-[200px] max-sm:h-[150px] border-[#00040fab] dark:border-slate-300 border-4 rounded-full mt-12"
-            />
-          </div>
+
         </div>
 
         <p className="text-[#00040f] dark:text-slate-300 mx-2 text-center capitalize tracking-widest max-sm:text-sm p-2">

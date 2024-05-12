@@ -38,20 +38,9 @@ const Contact = () => {
               >
                 <SiLinkedin />
               </a>
+
               <a
-                href="https://www.instagram.com/dhairya_majmudar_1511/"
-                className=" hover:text-slate-500  dark:hover:text-sky-300"
-              >
-                <SiInstagram />
-              </a>
-              <a
-                href="https://twitter.com/majmudar777"
-                className=" hover:text-slate-500  dark:hover:text-sky-300"
-              >
-                <SiTwitter />
-              </a>
-              <a
-                href="movva.sanjana@gmail.com"
+                href="mailto:movva.sanjana@gmail.com"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
               >
                 <SiGmail />
@@ -59,17 +48,9 @@ const Contact = () => {
             </div>
             <div className="flex gap-5 max-sm:justify-center">
               <button className="py-3 px-4 bg-gradient-to-t dark:from-cyan-500 dark:to-slate-300  from-blue-600 to-cyan-600 font-medium text-[12px] text-[#e1e1e1] dark:text-black outline-none mt-10 mr-3 rounded ">
-                <a href="">Resume</a>
+                <a href="https://drive.google.com/file/d/1LJHE57rB5ESLJkf3V6cMh-vGzReRxGMK/view?usp=drive_link">Resume</a>
               </button>
-              <button className="py-3 px-4 bg-gradient-to-t dark:from-cyan-500 dark:to-slate-300 from-blue-600 to-cyan-600  font-medium text-[12px] text-[#e1e1e1] dark:text-black outline-none mt-10 mr-3 rounded ">
-                <a
-                  href=""
-                  className="flex gap-2 items-center justify-center"
-                >
-                  <SiGithub />
-                  Star
-                </a>
-              </button>
+
             </div>
           </div>
 

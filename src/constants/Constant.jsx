@@ -12,6 +12,8 @@ import pvpsit from "../assets/PVPSIT.png";
 import tcs from "../assets/TCS.png";
 import TailwindCSS from "../assets/TailwindCSS.png";
 import Vite from "../assets/Vite.png";
+import Memo from "../assets/Memo.png";
+import AQP from "../assets/AQP.png";
 
 export {
   C,
@@ -27,5 +29,7 @@ export {
   pvpsit,
   tcs,
   TailwindCSS,
-  Vite
+  Vite,
+  Memo,
+  AQP
 };

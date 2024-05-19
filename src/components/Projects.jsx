@@ -5,12 +5,18 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import {
+  SiDjango,
+  SiNpm,
+  SiPycharm,
+  SiPython,
+  SiR,
   SiReact,
+  SiRstudio,
   SiTailwindcss,
   SiVite,
 } from "react-icons/si";
 import {
-  uh,
+  uh, Memo, AQP
 } from "../constants/Constant";
 
 const Projects = () => {
@@ -35,7 +41,7 @@ const Projects = () => {
           <Project_prop
             title="MemoDairy – Capturing and Reliving Life’s Moments (iOS Application)"
             para="Developed an iOS application, MemoDairy, leveraging Swift and Xcode, to enable users to capture and relive their life's moments seamlessly."
-            img={uh}
+            img={Memo}
             link=""
             github_link=""
             react={
@@ -63,27 +69,27 @@ const Projects = () => {
           <Project_prop
             title="Automatic Random Question Paper Generation System"
             para="Developed an innovative Automatic Question Paper Generator application utilizing natural language processing techniques, resulting in a 50% reduction in time spent on question paper creation compared to manual methods."
-            img={uh}
+            img={AQP}
             link=""
             github_link=""
             react={
-              <Tooltip title="React" arrow>
+              <Tooltip title="Python" arrow>
                 <IconButton>
-                  <SiReact className="dark:text-slate-200 text-black" />
+                  <SiPython className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
             tailwindcss={
-              <Tooltip title="TailWind CSS" arrow>
+              <Tooltip title="Pycharm" arrow>
                 <IconButton>
-                  <SiTailwindcss className="dark:text-slate-200 text-black" />
+                  <SiPycharm className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
             vite={
-              <Tooltip title="Vite" arrow>
+              <Tooltip title="Django" arrow>
                 <IconButton>
-                  <SiVite className="dark:text-slate-200 text-black" />
+                  <SiDjango className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
@@ -95,23 +101,16 @@ const Projects = () => {
             link=""
             github_link=""
             react={
-              <Tooltip title="React" arrow>
+              <Tooltip title="RStudio" arrow>
                 <IconButton>
-                  <SiReact className="dark:text-slate-200 text-black" />
+                  <SiRstudio className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
             tailwindcss={
-              <Tooltip title="TailWind CSS" arrow>
+              <Tooltip title="R" arrow>
                 <IconButton>
-                  <SiTailwindcss className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-            vite={
-              <Tooltip title="Vite" arrow>
-                <IconButton>
-                  <SiVite className="dark:text-slate-200 text-black" />
+                  <SiR className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
@@ -123,23 +122,16 @@ const Projects = () => {
             link=""
             github_link=""
             react={
-              <Tooltip title="React" arrow>
+              <Tooltip title="Python" arrow>
                 <IconButton>
-                  <SiReact className="dark:text-slate-200 text-black" />
+                  <SiPython className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
             tailwindcss={
-              <Tooltip title="TailWind CSS" arrow>
+              <Tooltip title="Pycharm" arrow>
                 <IconButton>
-                  <SiTailwindcss className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-            vite={
-              <Tooltip title="Vite" arrow>
-                <IconButton>
-                  <SiVite className="dark:text-slate-200 text-black" />
+                  <SiPycharm className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }

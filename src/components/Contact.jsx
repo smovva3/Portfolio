@@ -22,7 +22,7 @@ const Contact = () => {
               Sanjana Movva
             </h2>
             <p className="text-gray-600 dark:text-slate-400 leading-[30.8px] mt-7 max-w-[400px] max-sm:text-center">
-              ReactJS Developer | Instructional Assistant | MS in Computer Science -
+              Full Stack Developer | Astek Solutions Inc. | MS in Computer Science -
               University of Houston | UH'24
             </p>
             <div className="SOCIALS text-[#00040f] dark:text-white text-2xl flex gap-7 mt-5 max-sm:justify-evenly">
@@ -48,7 +48,7 @@ const Contact = () => {
             </div>
             <div className="flex gap-5 max-sm:justify-center">
               <button className="py-3 px-4 bg-gradient-to-t dark:from-cyan-500 dark:to-slate-300  from-blue-600 to-cyan-600 font-medium text-[12px] text-[#e1e1e1] dark:text-black outline-none mt-10 mr-3 rounded ">
-                <a href="https://drive.google.com/file/d/1LJHE57rB5ESLJkf3V6cMh-vGzReRxGMK/view?usp=drive_link">Resume</a>
+                <a href="https://drive.google.com/file/d/1aRCJokc2cNlJ9iwCHCv2SjdcaM4o_og7/view?usp=sharing">Resume</a>
               </button>
 
             </div>
@@ -57,9 +57,7 @@ const Contact = () => {
 
         </div>
 
-        <p className="text-[#00040f] dark:text-slate-300 mx-2 text-center capitalize tracking-widest max-sm:text-sm p-2">
-          made with 💙 by Sanjana Movva & the Open Source Community
-        </p>
+
       </section>
     </>
   );

@@ -17,9 +17,7 @@ const Edu_prop = (props) => {
                     <h3 className="capitalize  text-slate-800 dark:text-slate-300 text-xl max-sm:text-lg">
                         {props.degree}
                     </h3>
-                    <p className="italic capitalize text-gray-500 dark:text-slate-500 text-xl max-sm:text-lg leading-9">
-                        {props.period}
-                    </p>
+
 
                     <p className="capitalize text-gray-500 dark:text-slate-500 text-xl max-sm:text-lg leading-9">
                         {props.major}

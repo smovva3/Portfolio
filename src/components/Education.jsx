@@ -41,7 +41,6 @@ const Education = () => {
               image={pvpsit}
               title="PVP Siddhartha Institute of Technology"
               degree="Bachelors"
-              period="June 2017 - April 2021"
               major="Information Technology">
 
             </Edu_prop>

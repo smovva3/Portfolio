@@ -14,6 +14,9 @@ import TailwindCSS from "../assets/TailwindCSS.png";
 import Vite from "../assets/Vite.png";
 import Memo from "../assets/Memo.png";
 import AQP from "../assets/AQP.png";
+import plogo from "../assets/plogo.png";
+import astek from "../assets/astek.jpeg";
+
 
 export {
   C,
@@ -31,5 +34,7 @@ export {
   TailwindCSS,
   Vite,
   Memo,
-  AQP
+  AQP,
+  plogo,
+  astek
 };

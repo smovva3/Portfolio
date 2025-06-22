@@ -46,12 +46,12 @@ const Contact = () => {
                 <SiGmail />
               </a>
             </div>
-            <div className="flex gap-5 max-sm:justify-center">
+            {/* <div className="flex gap-5 max-sm:justify-center">
               <button className="py-3 px-4 bg-gradient-to-t dark:from-cyan-500 dark:to-slate-300  from-blue-600 to-cyan-600 font-medium text-[12px] text-[#e1e1e1] dark:text-black outline-none mt-10 mr-3 rounded ">
                 <a href="https://drive.google.com/file/d/1aRCJokc2cNlJ9iwCHCv2SjdcaM4o_og7/view?usp=sharing">Resume</a>
               </button>
 
-            </div>
+            </div> */}
           </div>
 
 
